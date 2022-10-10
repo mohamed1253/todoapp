@@ -1,0 +1,85 @@
+
+input{
+    display: block;
+    padding: 5px;
+    margin: 20px;
+     
+    
+}
+.input_1{
+    position: absolute;
+    top: 40px;
+
+    width: 450px ;
+}
+.input_2{
+    position: absolute;
+    top: 150px;
+
+    width:450px ;
+}
+.input_3{
+    position: absolute;
+    top: 260px;
+
+    width: 450px ;
+}
+.inputsdiv{
+    color: white;
+    width: 500px;
+    height:400px;
+    position: relative;
+}
+.h1_1{
+    position: absolute;
+    top: 110px;
+    left: 140px;
+    color:blue;
+}
+.date_1{
+    position: absolute;
+    top: 220px;
+    left: 140px;
+    color:blue;
+       
+}
+.bnt{
+    display: block;
+}
+.spneer{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(230 , 133 , 133 , 0.845);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+.spneer::after{
+    content:  "";
+    width: 60px;
+    height: 60px; 
+    border-left: 10px solid black   ;
+    border-right:10px solid black   ;
+    border-radius: 20px ;
+    animation-name: move;
+    animation-iteration-count:infinite;
+    animation-duration:4s ;
+}
+@keyframes move {  
+    from{
+        transform: rotate(1turn);
+    }
+    to{
+        transform: rotate(50turn);
+    }
+}
+.hide{
+    display: none;
+}    
+.boon{
+    width: 50%;
+}
